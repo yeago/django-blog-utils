@@ -1,0 +1,3 @@
+<div class="photologue-thumb">
+	<a href="{% if url %}{{ url }}{% else %}/media/{{ image.image }}{% endif %}"><img src="{{ image.get_display_url }}" /></a>
+</div>

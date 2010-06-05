@@ -1,0 +1,4 @@
+<div class="photologue-image">
+	<a href="{% if url %}{{ url }}{% else %}/media/{{ image.image }}{% endif %}"><img src="{{ image.get_display_url }}" /></a>
+	<p class="photologue-image-caption">{{ image.caption }}</p>
+</div>
